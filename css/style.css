@@ -182,9 +182,14 @@ main {
     align-items: center;
     gap: 6.4rem;
     padding: 1.8rem 2.4rem;
+    
+    & .section-hero--content{
+        margin-left: 10rem;
+    }
  
   
     & .hero-subheading {
+     margin-left: 10rem; 
       text-transform: uppercase;
       letter-spacing: 0.2rem;
       font-size: 1.7rem;
@@ -205,11 +210,15 @@ main {
       color: var(--white-color);
       margin: 2rem 0 4.2rem 0;
     }
+    & .btn-white{
+        margin-left: 8.5rem;
+    }
 
     & .hero-social--media {
         display: flex;
-        margin-top: 1em;
+        margin-top: 2rem;
         gap: 1rem;
+        margin-left: 5rem;
     
         & .fa-brands {
           width: 5rem;
@@ -244,5 +253,33 @@ main {
             padding-left: 1rem;
         }
     }
+    & .section-hero--image img{
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
 }
   
+/* About section start */
+.section-about .grid{
+    gap: 6.4rem; 
+    
+    & .section-common-heading{
+        font-size: 4.2rem;
+        text-align: center;
+        padding-bottom: 3rem;
+        
+        
+    } 
+    & .hero-subheading{
+        padding-left: 5rem;
+    }
+    & .about-btn{
+        padding-top: 2rem;
+        padding-left: 5rem;
+        
+    }
+    
+}
